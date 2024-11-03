@@ -10,7 +10,9 @@
     "deploy": "ng build --output-path docs",
     "deploy1": "ng build --output-path docs --base-href /catalog/\n",
     "deploy2": "ng build --base-href=https://renhayes.github.io/catalog/",
-    "deploy3": "ng build --configuration-production --base-href https://renhayes.github.io/catalog/"
+    "deploy3": "ng build --configuration-production --base-href https://renhayes.github.io/catalog/",
+    "deploy4": "ng deploy --base-href=/catalog/",
+    "deploy5": "ng build --repo=https://github.com/renhayes/catalog.git"
   },
   "private": true,
   "dependencies": {
