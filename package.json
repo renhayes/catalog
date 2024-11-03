@@ -8,7 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "ng build --output-path docs",
-    "deploy1": "ng build --output-path docs --base-href /catalog/\n"
+    "deploy1": "ng build --output-path docs --base-href /catalog/\n",
+    "deploy2": "ng build --base-href=https://renhayes.github.io/catalog/",
+    "deploy3": "ng build --configuration-production --base-href https://renhayes.github.io/catalog/"
   },
   "private": true,
   "dependencies": {
